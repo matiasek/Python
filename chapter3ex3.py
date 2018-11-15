@@ -20,7 +20,7 @@ def IsYearLeap(year):
         return False
 
 def DaysInMonth(year,month):
-    if isinstance(year,int)==True and isinstance(month,int)==True and :
+    if isinstance(year,int)==True and isinstance(month,int)==True:
         print("To jest liczba")
         if month==2:
             if IsYearLeap(year)==True:
